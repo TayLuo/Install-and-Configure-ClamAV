@@ -39,11 +39,11 @@ Here are the following steps:
 <p align="center">
 <img src="https://imgur.com/szoB4Bo.png" height="80%" width="80%" >
 
- 1. Once log into the VM, the first thing always to make sure the system is up to date.
+  4. Check the status of clamav by issuing: systemctl status clamav-freshclam
       
-      Run the Following Command: sudo apt update && sudo apt upgrade -y
+     systemctl status clamav-freshclam
 <p align="center">
-<img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
+<img src="https://imgur.com/ND75pCq.png" height="80%" width="80%" >
    
  1. Once log into the VM, the first thing always to make sure the system is up to date.
       
