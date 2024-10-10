@@ -11,9 +11,11 @@ Ensure the server is secure by implementing antivirus measures.
 
 Comply with PCI-DSS standards for protecting cardholder data.
 
+
 I did the project on [Azure](https://azure.microsoft.com/en-us). You can use any platform as you prefer,
 All steps are the same. 
 
+If you need help on how to create a VM on Azure, please click [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
 
 1. After login, the first thing is to "update" the system, so the new version Snort is compatiable with the VM.
    Run the Following Command:
