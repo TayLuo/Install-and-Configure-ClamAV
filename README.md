@@ -18,6 +18,7 @@ All steps are the same.
 
 If you need help on how to create a VM on Azure, please click [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
 
+
 Here are the following steps: 
 
    1. Once log into the VM, the first thing always to make sure the system is up to date.
