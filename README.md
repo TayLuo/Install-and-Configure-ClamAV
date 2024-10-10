@@ -52,21 +52,26 @@ Here are the following steps:
 <img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
 
 
- 6. We need to update the ClamAv Signature Database, but we need to stop the service first
-      
-      sudo systemctl stop clamav-freshclam
-<p align="center">
-<img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
-
- 7. update the signature database
+ 6. update the signature database
       
       sudo freshclam
 <p align="center">
 <img src="https://imgur.com/FwNT7vh.png" height="80%" width="80%" >
 
-5. We need to update the ClamAv Signature Database, but we need to stop the service first
+ 7. After the update, now need to restart the clamav service
       
-      sudo systemctl stop clamav-freshclam
+      sudo systemctl start clamav-freshclam
 <p align="center">
-<img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
+<img src="https://imgur.com/iYp8fTA.png" height="80%" width="80%" >
 
+
+ 8. run the following command to scan your files
+
+    Here are the syntax: clamscan --infected --remove --recursive $PATH_YOU _WANT_TO_SCAN
+
+    In the screenshot, I scan the user's home directory.
+
+    Be cautious with "--remove" command in the real production evnironment.
+
+<p align="center">
+<img src="https://imgur.com/ca7wkgf.png" height="80%" width="80%" >
