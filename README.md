@@ -50,3 +50,23 @@ Here are the following steps:
       sudo systemctl stop clamav-freshclam
 <p align="center">
 <img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
+
+
+ 6. We need to update the ClamAv Signature Database, but we need to stop the service first
+      
+      sudo systemctl stop clamav-freshclam
+<p align="center">
+<img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
+
+ 7. update the signature database
+      
+      sudo freshclam
+<p align="center">
+<img src="https://imgur.com/FwNT7vh.png" height="80%" width="80%" >
+
+5. We need to update the ClamAv Signature Database, but we need to stop the service first
+      
+      sudo systemctl stop clamav-freshclam
+<p align="center">
+<img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
+
