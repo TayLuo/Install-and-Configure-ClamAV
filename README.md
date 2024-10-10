@@ -26,6 +26,9 @@ Here are the following steps:
 <p align="center">
 <img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
 
-4. It is time to install Snort on the Server:
+
+  2. After updating, run the following command to install ClamAV:
+
+   sudo apt-get install clamav clamav-daemon
 <p align="center">
-<img src="https://imgur.com/WsumxTM.png" height="80%" width="80%" >
+<img src="https://imgur.com/gTy6uns.png" height="80%" width="80%" >
