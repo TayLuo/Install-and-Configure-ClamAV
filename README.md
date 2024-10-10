@@ -6,9 +6,10 @@ an Ubuntu server to help meet the PCI-DSS framework requirements. The installati
 will be documented step-by-step, accompanied by screenshots to provide clear guidance.
 
 Objectives:
+
 Ensure the server is secure by implementing antivirus measures.
 
-   Comply with PCI-DSS standards for protecting cardholder data.
+Comply with PCI-DSS standards for protecting cardholder data.
 
 I did the project on [Azure](https://azure.microsoft.com/en-us). You can use any platform as you prefer,
 All steps are the same. 
