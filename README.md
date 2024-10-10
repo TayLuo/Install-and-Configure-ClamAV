@@ -21,6 +21,7 @@ If you need help on how to create a VM on Azure, please click [here](https://lea
 Here are the following steps: 
 
    1. Once log into the VM, the first thing always to make sure the system is up to date.
+      
    Run the Following Command: sudo apt update && sudo apt upgrade -y
 <p align="center">
 <img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
