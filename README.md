@@ -17,8 +17,10 @@ All steps are the same.
 
 If you need help on how to create a VM on Azure, please click [here](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
 
-1. After login, the first thing is to "update" the system, so the new version Snort is compatiable with the VM.
-   Run the Following Command:
+Here are the following steps: 
+
+   1. Once log into the VM, the first thing always to make sure the system is up to date.
+   Run the Following Command: sudo apt update && sudo apt upgrade -y
 <p align="center">
 <img src="https://imgur.com/HXJid7u.png" height="80%" width="80%" >
 
