@@ -41,12 +41,12 @@ Here are the following steps:
 
   4. Check the status of clamav by issuing: systemctl status clamav-freshclam
       
-     systemctl status clamav-freshclam
+      systemctl status clamav-freshclam
 <p align="center">
 <img src="https://imgur.com/ND75pCq.png" height="80%" width="80%" >
    
- 1. Once log into the VM, the first thing always to make sure the system is up to date.
+  5. We need to update the ClamAv Signature Database, but we need to stop the service first
       
-      Run the Following Command: sudo apt update && sudo apt upgrade -y
+      sudo systemctl stop clamav-freshclam
 <p align="center">
-<img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
+<img src="https://imgur.com/xtpCxKt.png" height="80%" width="80%" >
