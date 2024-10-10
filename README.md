@@ -29,6 +29,24 @@ Here are the following steps:
 
   2. After updating, run the following command to install ClamAV:
 
-   sudo apt-get install clamav clamav-daemon
+      sudo apt-get install clamav clamav-daemon
 <p align="center">
 <img src="https://imgur.com/gTy6uns.png" height="80%" width="80%" >
+
+  3. Checking the Clamav installation:
+
+      dpkg -l | grep -i clamav
+<p align="center">
+<img src="https://imgur.com/szoB4Bo.png" height="80%" width="80%" >
+
+ 1. Once log into the VM, the first thing always to make sure the system is up to date.
+      
+      Run the Following Command: sudo apt update && sudo apt upgrade -y
+<p align="center">
+<img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
+   
+ 1. Once log into the VM, the first thing always to make sure the system is up to date.
+      
+      Run the Following Command: sudo apt update && sudo apt upgrade -y
+<p align="center">
+<img src="https://imgur.com/ykogwVj.png" height="80%" width="80%" >
